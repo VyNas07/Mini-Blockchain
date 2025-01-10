@@ -7,4 +7,4 @@ blockchain.addBlock({from: 'Pedro', to: 'André', amount: 5}); // Adicionando um
 
 
 console.log(blockchain); // Exibindo a blockchain no console
-console.log(blockchain.isValid()); // Verificando a integridade da blockchain
+console.log(blockchain.isValid()); // Verificando a integridade da blockchain 
