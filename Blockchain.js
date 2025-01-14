@@ -12,7 +12,7 @@ module.exports = class blockchain {
 
     addBlock(data){
         const lastHash = this.getLastHash();
-        const block = new Block(this.nextIndex, lastHash, data, "0" );
+        const block = new Block(this.nextIndex, lastHash, data, "0000" );
         this.blocks.push(block);
 
         this.nextIndex++; // Incrementa o índice
